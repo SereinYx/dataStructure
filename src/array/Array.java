@@ -131,6 +131,7 @@ public class Array<E> {
         return remove(size - 1);
     }
 
+
     // 从数组中删除元素e
     public boolean removeElement(E e){
         int index = find(e);
