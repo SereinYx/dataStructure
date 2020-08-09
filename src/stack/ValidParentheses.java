@@ -3,12 +3,12 @@ package stack;
 import java.util.Stack;
 
 /**
- * @ClassName ValidParenthese
+ * @ClassName ValidParentheses
  * @Description leetCode No.20 有效的括号
  * @Author serein
  * @Date 2020-08-09 19:42
  */
-public class ValidParenthese {
+public class ValidParentheses {
 
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
