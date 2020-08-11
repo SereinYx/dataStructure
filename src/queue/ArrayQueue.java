@@ -61,7 +61,7 @@ public class ArrayQueue<E> implements Queue<E> {
     }
 
     public static void main(String[] args) {
-        LoopQueue<Integer> arrayQueue = new LoopQueue<>();
+        LinkedListQueue<Integer> arrayQueue = new LinkedListQueue<>();
         for (int i = 0; i < 10; i++) {
             arrayQueue.enqueue(i);
             System.out.println(arrayQueue);

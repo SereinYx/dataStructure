@@ -21,6 +21,10 @@ public class TestQueueTime {
         double time2 = testQueue(loopQueue, opCount);
         System.out.println("LoopQueue Time: " + time2 + " s");
 
+        LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
+        double time3 = testQueue(linkedListQueue, opCount);
+        System.out.println("linkedListQueue Time: " + time3 + " s");
+
     }
 
     private static double testQueue(Queue<Integer> queue, int opCount){
