@@ -1,7 +1,7 @@
 package linkedlist;
 
 //LeetCode No.203 移除链表元素
-public class Solution {
+public class RemoveLinkedListElement1 {
     public ListNode removeElements(ListNode head, int val) {
         while (head != null && head.val == val)
             head = head.next;
@@ -25,7 +25,7 @@ public class Solution {
         ListNode listNode = new ListNode(arr);
         System.out.println(listNode);
 
-        ListNode node = new Solution().removeElements(listNode, 6);
+        ListNode node = new RemoveLinkedListElement1().removeElements(listNode, 6);
         System.out.println(listNode);
     }
 }
